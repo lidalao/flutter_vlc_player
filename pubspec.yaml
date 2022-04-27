@@ -21,15 +21,16 @@ dependencies:
     sdk: flutter
  
   meta: ^1.7.0
-  flutter_vlc_player:
-    git:
-      url: https://github.com/lidalao/flutter_vlc_player_platform_interface.git
-      ref: master # branch name 
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_vlc_player:
+    git:
+      url: https://github.com/lidalao/flutter_vlc_player_platform_interface.git
+      ref: master # branch name 
+      
   flutter_lints: ^1.0.4
   pigeon: ^0.2.4
   plugin_platform_interface: ^2.0.1
